@@ -2,7 +2,7 @@
 
 const
   LOG_GENERAL = 0,
-  LOG_VERBOSE = 1
+  LOG_VERBOSE = 0
     ;
 
 const
