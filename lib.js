@@ -1695,7 +1695,7 @@ function initSteem(callback) {
   // #50, fix Websocket address, server has migrated to new URL
   //steem.api.setWebSocket('wss://steemd.steemit.com');
   // #93, use alternate websocket temporarily
-  steem.config.set('websocket','wss://steemd.privx.io:8090');
+  steem.config.set('websocket','wss://rpc.steemliberator.com');
   // #71, no longer need to set this
   var processes = [
     function() {
